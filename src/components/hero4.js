@@ -1,7 +1,7 @@
 import React from "react";
-import num from "../assets/svg/num1.svg"
-import num2 from "../assets/svg/num2.svg"
-import num3 from "../assets/svg/num3.svg"
+import num from "../assets/svg/fire.svg"
+import num2 from "../assets/svg/chat2.svg"
+import num3 from "../assets/svg/wallet.svg"
 
 const Card = ({ imgSrc, title, text }) => {
     return (

@@ -44,6 +44,10 @@ const Footer = () => {
                 <FaInstagramSquare size={20} className="hover:text-yellow hover:-translate-y-1 transition-all" />
               </Link>
             </div>
+
+            <p className="mt-8 text-xs text-white">
+        SPIC AND SPAN. Home & Office Cleaning is an online marketplace that matches private and commercial<br/>customers with experienced cleaners in Austria, Belgium, France, Germany, Italy, Luxembourg, Poland, Portugal,<br/> Spain, and Sweden. SPIC AND SPAN. Home & Office Cleaning is a registered trademark of A&K Ventures OÜ,<br/> a company founded in July 2016 by Karol Kaczmarek and Amadeusz Annissimo.
+        </p>
           </div>
 
 
@@ -324,7 +328,9 @@ const Footer = () => {
 
           </div>
         </div>
-        <p className="mt-8 text-xs text-white">© 2024 Home&cleaning - All rights reserved</p>
+        {/* <p className="mt-8 text-xs text-white">
+        SPIC AND SPAN. Home & Office Cleaning is an online marketplace that matches private and commercial<br/>customers with experienced cleaners in Austria, Belgium, France, Germany, Italy, Luxembourg, Poland, Portugal,<br/> Spain, and Sweden. SPIC AND SPAN. Home & Office Cleaning is a registered trademark of A&K Ventures OÜ,<br/> a company founded in July 2016 by Karol Kaczmarek and Amadeusz Annissimo.
+        </p> */}
       </div>
     </footer>
   );

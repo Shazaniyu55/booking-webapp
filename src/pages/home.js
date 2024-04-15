@@ -5,10 +5,11 @@ import Hero from "../components/hero";
 import Community from "../components/hero2";
 import Services from "../components/service";
 import Testimonials from "../components/testimonials";
-import Pricing from "../components/pricing";
-import ChatRobot from "../components/chatbot";
 import Hero3 from "../components/hero3";
 import Hero4 from "../components/hero4";
+import Hero5 from "../components/hero5";
+import Faq from "../components/faq";
+import Foot2 from "../components/foot2";
 
 function Home(){
 
@@ -23,20 +24,16 @@ function Home(){
             </div>
 
             <Community/>
-            <Services/>
+            
             <Hero3/>
+            
             <Hero4/>
-            <Pricing/>
-            
-
-           
-          
+            <Services/>
             <Testimonials/>
-
-
-            
-            
+            <Faq/>
+            <Hero5/> 
             <Footer/>
+            <Foot2/>
         </div>
 
         
