@@ -10,6 +10,7 @@ import Hero4 from "../components/hero4";
 import Hero5 from "../components/hero5";
 import Faq from "../components/faq";
 import Foot2 from "../components/foot2";
+import Hero6 from "../components/hero6";
 
 function Home(){
 
@@ -30,6 +31,7 @@ function Home(){
             <Hero4/>
             <Services/>
             <Testimonials/>
+            <Hero6/>
             <Faq/>
             <Hero5/> 
             <Footer/>
