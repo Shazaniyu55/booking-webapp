@@ -15,7 +15,7 @@ const Card = ({ imgSrc, title, text }) => {
           className="mx-auto"
         />
         <h2 className="text-xl font-semibold text-white">{title}</h2>
-        <p className="leading-loose text-white">
+        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-white">
          {text}
         </p>
 
