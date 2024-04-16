@@ -1,5 +1,9 @@
 import React from "react";
-import clean1 from '../assets/clean1.jpg'
+import team1 from '../assets/team/1.png'
+import team2 from '../assets/team/2.png'
+import team3 from '../assets/team/3.png'
+import team4 from '../assets/team/5.png'
+import team5 from '../assets/team/5.png'
 import {FaFacebook, FaLinkedinIn} from 'react-icons/fa'
 import { Link } from "react-router-dom";
 
@@ -41,18 +45,18 @@ const TeamCard = ({ imgSrc, name, title }) => {
   
         <div className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-8 mt-16">
           <TeamCard
-            imgSrc={clean1}
+            imgSrc={team1}
             name="Saimon Harmer"
             title="CEO and Founder"
           />
-          <TeamCard imgSrc={clean1} name="Aaron Nunez" title="Founder" />
+          <TeamCard imgSrc={team2} name="Aaron Nunez" title="Founder" />
           <TeamCard
-            imgSrc={clean1}
+            imgSrc={team3}
             name="Abdulwahab Ekekhide"
             title="Web Designer"
           />
           <TeamCard
-            imgSrc={clean1}
+            imgSrc={team4}
             name="Lina Jutila"
             title="Web Developer"
           />

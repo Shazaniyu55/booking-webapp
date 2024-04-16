@@ -20,9 +20,8 @@ function Home(){
     return(
         <div className="dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
             <NavBar/>
-            <div className="w-full text-white">
             <Hero />
-            </div>
+           
 
             <Community/>
             
