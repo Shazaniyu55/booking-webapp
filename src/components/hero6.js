@@ -14,7 +14,7 @@ const Card = ({  title, text }) => {
       <div className="flex flex-col gap-4 md:gap-6 p-10">
         
         <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">{title}</h2>
-        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-left w-full text-black1">
+        <p className="leading-loose tracking-tighter leading-normal text-left w-full text-black1">
          {text}
         </p>
 

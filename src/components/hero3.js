@@ -20,7 +20,7 @@ const Card = ({ imgSrc, title, desc }) => {
 
             <div>
           <h3 className="text-lg text-white font-semibold mb-2">{title}</h3>
-          <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-white">{desc}</p>
+          <p className="leading-loose tracking-tighter leading-normal text-white">{desc}</p>
         </div>
         
       </div>
