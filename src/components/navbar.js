@@ -29,7 +29,7 @@ function AdainNavBar() {
 
   
   return (
-    <nav className="transition-opacity duration-200 w-full top-0 h-25 shadow-lg fixed lg:mb-8 bg-white backdrop-blur-3xl hover:bg-yellow opacity-100 z-50 hover:bg-avista2">
+    <nav className="transition-opacity duration-200 w-full top-0 h-25 shadow-lg fixed lg:mb-8 bg-white backdrop-blur-3xl opacity-100 z-50 ">
       
      
         <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex sm:px-8">
@@ -109,13 +109,13 @@ function AdainNavBar() {
               the parent codeblock... */}
 
               
-<button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-yellow hover:border-black hover:bg-transparent hover:text-black rounded-full">
+<button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-blue  rounded-full">
           <Link to="" target="_blank">
             Login
           </Link>
         </button>
 
-        <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-yellow hover:border-black hover:bg-transparent hover:text-black rounded-full">
+        <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-blue rounded-full">
           <Link to="" target="_blank">
             Book Now
           </Link>

@@ -1,55 +1,87 @@
 import React, { useState } from 'react';
-import plus from "../assets/svg/plus.svg"
-import minus from "../assets/svg/minus.svg"
-const FAQItem = ({ question, answer }) => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleOpen = () => {
-    setIsOpen(!isOpen);
-  };
 
-  return (
-    <div className="faq-item">
-      <div className="question" onClick={toggleOpen}>
-        <h3>{question}</h3>
-        <span>{isOpen ? <img src={minus} width="30"/> : <img src={plus} width="30"/>}</span>
-      </div>
-      {isOpen && 
-      <div className="container w-full mx-auto px-16 lg:px-32">
-        <h1 className='text-left'>{answer}</h1>
-        </div>}
-    </div>
-  );
-};
 
 const Faq = () => {
   return (
-    <section className="container mx-auto translate-y-20 bg-white">
-      <div className="flex justify-center items-center text-center mx-auto m-10">
-        <div className="flex flex-col gap-4 md:gap-6 p-10">
-          <h2 className="title text-3xl md:text-4xl font-bold text-center lg:text-center">Frequently asked questions</h2>
-          <FAQItem
-            question="Do I have to be at home during the cleaning service?"
-            answer="It is completely up to you. Some customers enjoy the opportunity to have some time for themselves out in the city while their apartment is being cleaned. Others like to be around to have a chance to give the cleaning lady directions when needed. The only thing you need to make sure is that your cleaner has a way to access your home."
-          />
-          <FAQItem
-            question="Will the cleaning lady bring the cleaning solvents & equipment with her/him?"
-            answer="If you would like your cleaner to bring cleaning solvents, mop, and vacuum cleaner with him/her, you need to specify that option in the booking form. If you forget to do it while booking, simply contact our customer support via email, phone, or chat, and we'll add it to your booking."
-          />
-          {/* Add more FAQ items here */}
-
-          <FAQItem
-            question="Will the cleaning lady bring the cleaning solvents & equipment with her/him?"
-            answer="If you would like your cleaner to bring cleaning solvents, mop, and vacuum cleaner with him/her, you need to specify that option in the booking form. If you forget to do it while booking, simply contact our customer support via email, phone, or chat, and we'll add it to your booking."
-          />
-
-            <FAQItem
-            question="Will the cleaning lady bring the cleaning solvents & equipment with her/him?"
-            answer="If you would like your cleaner to bring cleaning solvents, mop, and vacuum cleaner with him/her, you need to specify that option in the booking form. If you forget to do it while booking, simply contact our customer support via email, phone, or chat, and we'll add it to your booking."
-          />
-        </div>
-      </div>
-    </section>
+    <section
+    className="bg-white mt-20 md:w-4/5 md:px-10 md:pb-8 md:pt-10 rounded-lg md:flex justify-between flex-row"
+  >
+    
+    <div className="w-full md:w-2/6">
+      <p className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">
+      Frequently asked questions
+      </p>
+    </div>
+    <div className="md:w-3/4">
+      <details
+        className="border border-white rounded md:pt-2 md:pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none md:open:bg-white md:duration-300"
+      >
+        <summary
+          className="list-none font-semibold relative text-sm cursor-pointer pr-7"
+          >Do I have to allow the use of cookies?
+          <div
+            className="absolute top-0 right-0 bg-blue rounded-full px-1 py-0.5 cursor-pointer visible open:invisible"
+          >
+            <svg
+              class="h-5 w-4 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </summary>
+        <p className="text-xs pt-3">
+          Yes, in order to use My Page, you must allow the use of cookies in
+          your browser.<br /><br />
+          See also: What is a cookie and what does it do?
+        </p>
+      </details>
+      <details
+        className="border border-white rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"
+      >
+        <summary
+          className="list-none font-semibold relative text-sm cursor-pointer pr-7"
+          >How do I change my My Page Password?
+          <div
+            className="absolute top-0 right-0 bg-blue rounded-full px-1 py-0.5 cursor-pointer visible open:invisible"
+          >
+            <svg
+              class="h-5 w-4 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+          </div>
+        </summary>
+        <p className="text-xs pt-3">
+          Yes, in order to use My Page, you must allow the use of cookies in
+          your browser.<br /><br />
+          See also: What is a cookie and what does it do?
+        </p>
+      </details>
+      
+      
+    </div>
+  </section>
   );
 };
 

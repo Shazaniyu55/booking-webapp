@@ -8,10 +8,10 @@ module.exports = {
       },
     },
     colors: {
-      'black': '#f1b31c',
-      'yellow': '#66CCFF',
+      'black': '#000',
+      'yellow': '#f1b31c',
       'white':'#FFFDFD',
-      'blue':'#92d3f5',
+      'blue':'#4A94F7',
       'black1':'#252525',
       'gold':'#FEDF30'
 
