@@ -62,6 +62,14 @@ const Card = ({  title, text }) => {
 
         <h1>BASIC CLEANING</h1>
 
+        <p className="leading-loose tracking-tighter leading-normal">
+        Reliable home cleaning service
+        Good choice if you want to maintain a clean home
+        Reduced price for subscribers
+        Available last-minute
+        </p>
+        
+
         <button className="bg-yellow hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Learn More</button>
 
         </div>
@@ -78,6 +86,13 @@ const Card = ({  title, text }) => {
         />
 
         <h1>DEEP CLEANING</h1>
+
+        <p className="leading-loose tracking-tighter leading-normal">
+        After-builders cleanup
+        Reduced price of cleaning equipment
+        Extensive dust cleaning
+        Cleaning before the landlord inspection
+        </p>
 
         <button className="bg-yellow hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Learn More</button>
 
@@ -96,6 +111,13 @@ const Card = ({  title, text }) => {
         />
 
         <h1>REGULAR BASIC CLEANING</h1>
+
+        <p className="leading-loose tracking-tighter leading-normal">
+        Lowest available price
+        The same cleaning person every time
+        Flexible cleaning schedule
+        Cancel anytime
+        </p>
 
         <button className="bg-yellow hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Learn More</button>
 
