@@ -41,7 +41,7 @@ const Card = ({ imgSrc, title, text }) => {
     return (
       <section className="border-t border-neutral-200 bg-black1 px-5 md:px-16 py-10 md:py-16">
         <div className="flex justify-center items-center text-center mx-auto ">
-        <p className=" text-xs text-white">© 2024 Home&cleaning - All rights reserved</p>         
+        <p className="leading-loose tracking-tighter line-clamp-3 leading-normal text-xs text-white">© 2024 Home&cleaning - All rights reserved</p>         
         </div>
       </section>
     );
