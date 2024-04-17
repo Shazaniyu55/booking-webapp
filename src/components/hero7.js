@@ -2,7 +2,7 @@ import React from "react";
 import bg from "../assets/clean1.jpg"
 
 
-const Hero7 = () => {
+const Hero7 = ({ptag, text}) => {
 
   const styles = {
     backgroundImage: `url('${bg}')`,
@@ -23,12 +23,13 @@ const Hero7 = () => {
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
         <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
           <p className="text-white mt-20">
-          Meet Fabian family.
+          {ptag}
              </p>
           
         </h1>
         <p className="text-lg text-white leading-normal sm:leading-loose my-4 md:my-6">
-        The most convenient way to book a cleaning for your home & office.        </p>
+        {text}
+        </p>
 
         
 
