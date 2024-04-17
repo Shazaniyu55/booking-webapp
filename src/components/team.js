@@ -28,18 +28,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
         />
         <h2 className="text-base sm:text-xl font-semibold text-center">{name}</h2>
         <p className="text-center sm:text-base text-sm">{title}</p>
-        <div className="flex md:flex-col gap-3 md:absolute md:bottom-12 md:right-8 md:translate-y-10 icons md:transition-all md:duration-500 md:opacity-0 mx-auto md:mx-0 md:text-yellow">
-          <Link
-            target="_blank"
-            to="#"
-          >
-           <FaFacebook scale={20} className="text-xl hover:text-yellow cursor-pointer md:hover:text-black"/>
-          </Link>
-          <Link target="_blank" to="#">
-            <FaLinkedinIn scale={20} className="text-xl hover:text-yellow cursor-pointer md:hover:text-black"/>
-          </Link>
-         
-        </div>
+  
       </div>
     );
   };
@@ -51,7 +40,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
         OUR TEAM
         </h2>
   
-        <div className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-y-8 sm:gap-8 mt-16">
+        <div className="mx-auto md:grid grid-cols-2 lg:grid-cols-3 md:gap-y-8 sm:gap-10 mt-16">
           <TeamCard
             imgSrc={team7}
             name="Fabian Lawrence"
