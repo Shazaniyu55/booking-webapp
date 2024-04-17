@@ -3,7 +3,7 @@ import {FaCheckCircle} from 'react-icons/fa'
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ButtonGroup from "../components/buttongroup";
+import ButtonGroup from "./buttongroup";
 
 const Plan = ({ title }) => {
   return (

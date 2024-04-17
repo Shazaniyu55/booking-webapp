@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import {FaStarHalf, FaStar} from 'react-icons/fa'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ButtonGroup from "../components/buttongroup";
+import ButtonGroup from "./buttongroup";
 import  test1 from '../assets/testimonials/1.png'
 import  test2 from '../assets/testimonials/2.png'
 import  test3 from '../assets/testimonials/3.png'
