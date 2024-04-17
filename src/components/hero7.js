@@ -23,7 +23,7 @@ const Hero7 = () => {
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
         <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
           <p className="text-white mt-20">
-          Meet SPIC AND SPAN.
+          Meet Fabian family.
              </p>
           
         </h1>

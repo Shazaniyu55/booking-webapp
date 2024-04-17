@@ -83,8 +83,8 @@ const TeamCard = ({ imgSrc, name, title }) => {
 
           <TeamCard
             imgSrc={team13}
-            name="Lina Jutila"
-            title="Web Developer"
+            name="Peter Paul"
+            title="Manager"
           />
          
          
