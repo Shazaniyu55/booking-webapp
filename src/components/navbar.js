@@ -38,7 +38,7 @@ function AdainNavBar() {
               <a href="/" className="flex items-center">
      
               <img src={mop} width="50px" height="50px" alt="Avista Beach Resort Logo" /> 
-              <p className='text-sm p-2 text-adainblack font-bold tracking-widest'>Home&cleaning</p>
+              <p className='text-sm p-2 text-adainblack font-bold tracking-widest'>Fabian family</p>
               </a>
               <div className="md:hidden text-adainblack hover:text-estatelinkwhite">
                 <button className="text-adainblack hover:text-adainwhite pt-2 rounded-md" onClick={handleClick}>

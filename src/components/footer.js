@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to={"/"} className="text-3xl">
               
 
-              <span className="text-white">Home&cleaning.</span>
+              <span className="text-white">Fabian family</span>
             </Link>
             <p className="max-w-xs mt-4 text-sm text-white">
               Quality Products At Its Best
@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
 
             <p className="leading-loose tracking-tighter  leading-normal mt-8 text-xs text-white">
-        SPIC AND SPAN. Home & Office Cleaning is an online marketplace that matches private and commercial<br/>customers with experienced cleaners in Austria, Belgium, France, Germany, Italy, Luxembourg, Poland, Portugal,<br/> Spain, and Sweden. SPIC AND SPAN. Home & Office Cleaning is a registered trademark of A&K Ventures OÜ,<br/> a company founded in July 2016 by Karol Kaczmarek and Amadeusz Annissimo.
+            Fabian family. Home & Office Cleaning is an online marketplace that matches private and commercial<br/>customers with experienced cleaners in Austria, Belgium, France, Germany, Italy, Luxembourg, Poland, Portugal,<br/> Spain, and Sweden. SPIC AND SPAN. Home & Office Cleaning is a registered trademark of A&K Ventures OÜ,<br/> a company founded in July 2016 by Karol Kaczmarek and Amadeusz Annissimo.
         </p>
           </div>
 
