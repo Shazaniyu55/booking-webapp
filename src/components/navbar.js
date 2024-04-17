@@ -116,7 +116,7 @@ function AdainNavBar() {
         </button>
 
         <button className="md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-blue rounded-full">
-          <Link to="" target="_blank">
+          <Link to="/" target="_blank">
             Book Now
           </Link>
         </button>
