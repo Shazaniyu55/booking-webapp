@@ -11,13 +11,16 @@ import team13 from '../assets/team/team13.jpeg'
 const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
   return (
     <section
-    className="bg-yellow p-10 mt-20  rounded-lg "
+    className="bg-yellow p-10 mt-20 "
   >
     
     
     <div className="md:w-3/4">
     
-    
+    <h1 className='line-clamp-2 text-2xl md:text-2xl font-bold text-center lg:text-center mt-4'>Frequently asked questions</h1>
+
+    <p className='text-center mt-10 text-2xl font-bold'>General Info</p>
+
     
       <details
         className="border mt-10 border-white rounded pt-2 pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"
@@ -263,6 +266,8 @@ function Contact(){
     </form>
 
       </div>
+
+    
 
     
 
