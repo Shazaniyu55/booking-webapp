@@ -6,7 +6,6 @@ import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
 import Footer from '../components/footer';
 import Foot2 from '../components/foot2';
-import Hero3 from '../components/hero3'
 import email from "../assets/svg/email.svg"
 import phone from "../assets/svg/phone.svg"
 import chat from "../assets/svg/chat.svg"
@@ -15,7 +14,7 @@ import chat from "../assets/svg/chat.svg"
 // components for new card
 const NewCard = ({ imgSrc, title, desc }) => {
   return (
-      <div className="flex items-start gap-3 sm:gap-10">
+      <div className="flex items-start">
         
 
       <img
@@ -160,7 +159,7 @@ const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
 // components for grid card
 const Card = ({ imgSrc, name, }) => {
     return (
-      <div className=" relative flex flex-col gap-1 md:hover:shadow-lg rounded-xl md:py-10 team-card md:cursor-pointer">
+      <div className=" relative flex flex-col gap-1 rounded-xl md:py-10 team-card md:cursor-pointer">
         <img
           src={imgSrc}
         
@@ -196,7 +195,7 @@ function Contact(){
         
       </section>
 
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center p-10'>
       <form className="w-full max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
 
       <div className="mb-4">
