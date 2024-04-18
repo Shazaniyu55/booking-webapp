@@ -6,14 +6,41 @@ import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
 import Footer from '../components/footer';
 import Foot2 from '../components/foot2';
+import Hero3 from '../components/hero3'
+import email from "../assets/svg/email.svg"
+import phone from "../assets/svg/phone.svg"
+import chat from "../assets/svg/chat.svg"
 
 
+// components for new card
+const NewCard = ({ imgSrc, title, desc }) => {
+  return (
+      <div className="flex items-start gap-3 sm:gap-10">
+        
+
+      <img
+        src={imgSrc}
+        width="60px"
+        height="60px"
+        alt="features"
+        className="mx-auto"
+      />
+
+          <div>
+        <h3 className="text-lg text-white font-semibold mb-2">{title}</h3>
+        <p className="leading-loose tracking-tighter leading-normal text-white">{desc}</p>
+      </div>
+      
+    </div>
+  );
+};
 
 
+// component for frquently asked questions
 const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
   return (
     <section
-    className="bg-yellow mt-20 p-10"
+    className="bg-yellow p-10"
   >
     
     
@@ -130,7 +157,7 @@ const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
 
 
 
-
+// components for grid card
 const Card = ({ imgSrc, name, }) => {
     return (
       <div className=" relative flex flex-col gap-1 md:hover:shadow-lg rounded-xl md:py-10 team-card md:cursor-pointer">
@@ -257,6 +284,41 @@ function Contact(){
 
       </div>
 
+      {/* section for */}
+        <section className="relative  container px-5 md:px-16 mx-auto bg-black1 ">
+            <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
+            <div className="flex gap-5 md:gap-10 flex-col">
+                <div className="flex flex-col gap-4 ">
+      
+                  <h2 className="text-3xl md:text-4xl font-bold text-white text-center lg:text-left">
+                   English-speaking customer support 7 days/week
+                  </h2>
+                </div>
+                <h2 className="text-3xl md:text-2xl font-bold text-white text-center lg:text-left">
+                Always ready to help
+                  </h2>
+                <NewCard
+                  imgSrc={phone}
+                  title="VIA PHONE"
+                  desc="Get in contact with us via phone by calling +49 30 588 494 40 where are always available by 8 am - 6 pm (Monday - Sunday)"
+                />
+                <NewCard
+                  imgSrc={email}
+                  title="VIA EMAIL"
+                  desc="Get in contact with us via email by sending a mail to info@spicandspan.de where are always available 24/7 (every day)"
+                />
+
+                <NewCard
+                  imgSrc={chat}
+                  title="VIA CHAT"
+                  desc="You can also reach us by Chat on our website 8 am - 6 pm (Monday - Sunday)"
+                />
+              </div>
+
+             
+             
+            </div>
+          </section>
     
 
     
