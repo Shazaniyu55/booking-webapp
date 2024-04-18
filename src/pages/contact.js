@@ -284,7 +284,7 @@ function Contact(){
       </div>
 
       {/* section for */}
-        <section className="relative  container px-5 md:px-16 mx-auto bg-black1 ">
+        <section className="bg-black1 ">
             <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
             <div className="flex gap-5 md:gap-10 flex-col">
                 <div className="flex flex-col gap-4 ">
