@@ -18,7 +18,7 @@ function Home(){
     
 
     return(
-        <div className="dark:bg-gray-900 dark:text-white duration-200 overflow-hidden">
+        <div className="duration-200 overflow-hidden">
             <NavBar/>
             <Hero />
            
