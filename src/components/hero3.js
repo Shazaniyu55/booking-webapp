@@ -29,7 +29,7 @@ const Card = ({ imgSrc, title, desc }) => {
 
 function Hero3(){
         return(
-            <section className="relative  container px-5 md:px-16 mx-auto bg-black1 mt-4">
+            <section className="bg-black1 mt-4">
             <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
             <div className="flex gap-5 md:gap-10 flex-col flex-1">
                 <div className="flex flex-col gap-4">

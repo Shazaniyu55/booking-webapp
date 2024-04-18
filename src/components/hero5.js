@@ -39,8 +39,9 @@ const Card = ({ imgSrc, title, text }) => {
   
   const Hero5 = () => {
     return (
-      <section className="container mx-auto translate-y-20 bg-yellow">
-        <div className="flex justify-center items-center text-center mx-auto m-10">
+      <section className=" bg-yellow">
+        <div className="flex justify-center items-center text-center mx-auto 
+      ">
           <Card imgSrc={num} title="Book a home cleaning today" text="
           Fill out our simple booking form.
           "/>

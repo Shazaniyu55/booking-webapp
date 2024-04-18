@@ -11,7 +11,7 @@ const Card = ({  title, text }) => {
       setSelectedOption(option);
     };
     return (
-      <div className="flex flex-col gap-4 md:gap-6 p-10">
+      <div className="flex flex-col gap-10 md:gap-10 p-10">
         
         <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">{title}</h2>
         <p className="leading-loose tracking-tighter leading-normal text-left w-full text-black1">
@@ -48,9 +48,9 @@ const Card = ({  title, text }) => {
         </div>
 
         {selectedOption === "regular" ? (
-        <div className=" grid sm:grid-cols-2 md:grid-cols-2 gap-8 md:gap-2 lg:gap-16 text-center mx-auto m-10 p-4">
+        <div className=" grid sm:grid-cols-2 md:grid-cols-2 gap-8 md:gap-10 lg:gap-16 text-center mx-auto m-10 p-4">
             {/* first grid */}
-        <div className="relative container md:w-[400px] mx-auto px-5 md:px-16 flex flex-col gap-5 mt-10 p-8 bg-white">
+        <div className="relative container mx-auto px-5 md:px-16 flex flex-col md:gap-10 mt-10 p-8 bg-white">
 
         <img
           src={table}
@@ -75,7 +75,7 @@ const Card = ({  title, text }) => {
         </div>
 
             {/* second grid */}
-            <div className="relative container md:w-[400px] mx-auto px-5 md:px-16 flex flex-col gap-5 mt-10 bg-white p-8">
+            <div className="relative container  mx-auto px-5 md:px-16 flex flex-col gap-5 mt-10 bg-white p-8">
 
         <img
           src={house}
@@ -136,7 +136,7 @@ const Card = ({  title, text }) => {
 
 
     return (
-      <section className="container mx-auto translate-y-20 bg-yellow">
+      <section className="bg-yellow">
         <div className="flex justify-center items-center text-center mx-auto m-10">
           <Card imgSrc={table} title="Cleaning services for homes & offices" text="
           You can book a regular cleaning service starting at only €26.90/h. This low price is reserved only for customers ordering cleanings on a regular schedule. How can you benefit from lower prices? Simply select in the booking form how often you want your home cleaning service: once per week, two, three, or four weeks. We can even arrange cleaning multiple times per week if this is what you need. There's no need to sign any long-term contracts or pre-pay for a number of appointments. To cancel your cleaning plan, pause it for a few weeks, or skip some dates, you just need to send us a simple email 48 hours before the next cleaning appointment. If you need the cleaning service just once, or prefer more flexibility, choose one of the one-time cleaning services..
