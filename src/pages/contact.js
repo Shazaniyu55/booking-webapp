@@ -4,6 +4,8 @@ import Hero7 from '../components/hero7';
 import team11 from '../assets/team/team11.jpeg'
 import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
+import Footer from '../components/footer';
+import Foot2 from '../components/foot2';
 
 
 
@@ -11,11 +13,11 @@ import team13 from '../assets/team/team13.jpeg'
 const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
   return (
     <section
-    className="bg-yellow p-10 mt-20 "
+    className="bg-yellow mt-20 p-10"
   >
     
     
-    <div className="md:w-3/4">
+    <div className="md:w-3/4 ">
     
     <h1 className='line-clamp-2 text-2xl md:text-2xl font-bold text-center lg:text-center mt-4'>Frequently asked questions</h1>
 
@@ -23,7 +25,7 @@ const Faq = ({question1, answer1, question2, answer2, question3, answer3}) => {
 
     
       <details
-        className="border mt-10 border-white rounded pt-2 pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"
+        className="border mt-10 border-white rounded pt-2 pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300 "
       >
         <summary
           className="list-none font-semibold md:relative text-sm cursor-pointer pr-7"
@@ -214,7 +216,7 @@ function Contact(){
 
       <div className="mb-4">
         <label htmlFor="position" className="block text-sm font-medium text-gray-600">
-          Position
+          City/Location
         </label>
         <input
           type="text"
@@ -226,23 +228,11 @@ function Contact(){
         />
       </div>
 
-      <div className="mb-4">
-        <label htmlFor="resume" className="block text-sm font-medium text-gray-600">
-          Resume (PDF only)
-        </label>
-        <input
-          type="file"
-          id="resume"
-          name="resume"
-          className="mt-1 p-2 w-full border rounded-md"
-          accept=".pdf"
-          required
-        />
-      </div>
+    
 
       <div className="mb-4">
         <label htmlFor="coverLetter" className="block text-sm font-medium text-gray-600">
-          Cover Letter
+          How can we help?
         </label>
         <textarea
           id="coverLetter"
@@ -258,7 +248,7 @@ function Contact(){
         <button
           type="submit"
           
-          className="bg-adainblack text-adainwhite p-2 rounded-md hover:bg-adainyellow"
+          className="bg-yellow text-black p-2 rounded-md hover:bg-adainyellow"
         >
           Submit
         </button>
@@ -283,7 +273,8 @@ function Contact(){
 
     
 
-
+    <Footer/>
+    <Foot2/>
 
     </>
         

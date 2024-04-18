@@ -8,7 +8,7 @@ import american from '../assets/svg/american.svg'
 
 const Footer = () => {
   return (
-    <footer className="border-t border-neutral-200 bg-black1 mt-16 px-5 md:px-16 py-10 md:py-16">
+    <footer className="border-t border-neutral-200 bg-black1  px-5 md:px-16 py-10 md:py-16">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
