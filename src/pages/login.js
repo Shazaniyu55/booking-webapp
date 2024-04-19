@@ -9,8 +9,8 @@ function Login(){
     return(
         <>
         <AdainNavBar/>
-        <div className="flex justify-center items-center p-20 mt-20">
-    <div className="flex-[0.75] bg-yellow p-8 rounded-2xl">
+        <div className="relative  container px-5 md:px-16 mx-auto  p-8 rounded-2xl p-10 mt-10">
+       <div className="bg-yellow p-10 m-10">
 
         <div className="flex justify-center items-center">
             <img src={mop} alt="broom" width="60px" height="60px"/>
@@ -31,7 +31,7 @@ function Login(){
               type='email'
               id='email'
              
-              placeholder="Email"
+              placeholder="Email address"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -44,7 +44,19 @@ function Login(){
             Get login link 
           </button>
 
-          
+            <p>
+            What can you see in the dashboard?
+            </p>
+
+            <ul>
+                <li>Upcoming cleanings</li>
+                <li>Completed cleanings</li>
+                <li>Subscriptions</li>
+                <li>Payments</li>
+                <li>Invoices</li>
+                <li>Billing data</li>
+                
+            </ul>
 
 
         </form>
