@@ -1,5 +1,5 @@
 import React from "react";
-
+import check from '../assets/svg/check2.svg'
 
 function Table(){
     return(
@@ -40,6 +40,7 @@ function Table(){
                 2 hours
                 </td>
                 <td className="px-6 py-4">
+
                 2 hours
                 </td>
                 <td className="px-6 py-4">
@@ -54,13 +55,15 @@ function Table(){
                 English-Speaking Cleaner
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 
             </tr>
@@ -70,13 +73,15 @@ function Table(){
                 Last-Minute Service
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 
             </tr>
@@ -88,13 +93,14 @@ function Table(){
                 Subscribe & Save
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 
             </tr>
