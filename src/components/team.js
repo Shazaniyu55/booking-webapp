@@ -46,17 +46,6 @@ const TeamCard = ({ imgSrc, name, title }) => {
             name="Queeneeth ibeabuchi"
             title="Secretary"
           />
-          <TeamCard
-            imgSrc={team8}
-            name="Lina Jutila"
-            title="Web Developer"
-          />
-
-        <TeamCard
-            imgSrc={team9}
-            name="Lina Jutila"
-            title="Web Developer"
-          />
 
           <TeamCard
             imgSrc={team11}

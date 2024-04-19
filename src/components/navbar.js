@@ -81,7 +81,7 @@ function AdainNavBar() {
          {/* I continued with the rest of the listed navlinks items here... */}  
                   
                   <li className={`text-adainblack hover:text-adainwhite ${activeNavItem === 'about' ? 'active' : ''}`}>
-                    <Link to="/About" onClick={() => handleClick('about')}>
+                    <Link to="/price" onClick={() => handleClick('about')}>
                       Price
                     </Link>
                   </li>

@@ -196,7 +196,7 @@ function Contact(){
       </section>
 
       <div className='flex justify-center items-center p-10'>
-      <form className="w-full max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
+      <form className="w-full max-w-md mx-auto p-6 bg-white shadow-md rounded-md" action='http://localhost:2300/send-email' method='POST'>
 
       <div className="mb-4">
         <label htmlFor="fullName" className="block text-sm font-medium text-gray-600">
@@ -205,7 +205,7 @@ function Contact(){
         <input
           type="text"
           id="fullName"
-          name="fullName"
+          name="name"
           
           className="mt-1 p-2 w-full border rounded-md"
           required
@@ -247,7 +247,7 @@ function Contact(){
         <input
           type="text"
           id="position"
-          name="position"
+          name="city"
           
           className="mt-1 p-2 w-full border rounded-md"
           required
@@ -262,7 +262,7 @@ function Contact(){
         </label>
         <textarea
           id="coverLetter"
-          name="coverLetter"
+          name="message"
           
           rows="4"
           className="mt-1 p-2 w-full border rounded-md"

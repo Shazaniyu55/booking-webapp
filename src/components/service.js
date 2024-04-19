@@ -2,6 +2,8 @@
 import clean from '../assets/clean4.jpg'
 import mop2 from '../assets/svg/mop2.svg'
 import mop3 from '../assets/svg/mop3.svg'
+
+
 const ServiceCard = ({ imgSrc, title, desc }) => {
   return (
     <div className="flex items-start gap-3 sm:gap-10 lg:w-[90%]">
