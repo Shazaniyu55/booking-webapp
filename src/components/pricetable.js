@@ -113,11 +113,11 @@ function Table(){
 {/* table 2 */}
 
 
-    <table className="w-full text-sm text-left rtl:text-right text-black1 dark:text-gray">
+<table className="w-full text-sm text-left rtl:text-right text-black1 dark:text-gray">
         <thead className="text-xs text-white uppercase bg-black1 dark:bg-gray-700 dark:text-white">
             <tr>
                 <th scope="col" className="px-6 py-3">
-                Equipment
+                    Equipment
                 </th>
                 
             </tr>
@@ -127,15 +127,10 @@ function Table(){
                 <th scope="row" className="px-6 py-4 font-medium text-black1 whitespace-nowrap dark:text-white">
                    Frequency
                 </th>
-                <td className="px-6 py-4">
-                every 1, 2, 3 or 4 weeks1
+                <td className="md:px-6 md:py-4">
+                There are no extra charges if you have the below equipment tems at home.
                 </td>
-                <td className="px-6 py-4">
-                Just once / on-demand
-                </td>
-                <td className="px-6 py-4">
-                Just once / on-demand
-                </td>
+                
                 
             </tr>
             <tr className="odd:bg-white hover:bg-yellow">
@@ -146,6 +141,7 @@ function Table(){
                 2 hours
                 </td>
                 <td className="px-6 py-4">
+
                 2 hours
                 </td>
                 <td className="px-6 py-4">
@@ -160,13 +156,15 @@ function Table(){
                 English-Speaking Cleaner
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 
             </tr>
@@ -176,13 +174,15 @@ function Table(){
                 Last-Minute Service
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 
             </tr>
@@ -194,13 +194,14 @@ function Table(){
                 Subscribe & Save
                 </th>
                 <td className="px-6 py-4">
-                2 hours
+                <img src={check} width="20px" height="20px"/>
+
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 <td className="px-6 py-4">
-                2 hours
+                
                 </td>
                 
             </tr>
