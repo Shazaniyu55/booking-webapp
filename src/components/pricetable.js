@@ -17,91 +17,189 @@ function Table(){
             </tr>
         </thead>
         <tbody>
-            <tr className="odd:bg-white odd:dark:bg-gray even:bg-gray even:dark:bg-gray border-b dark:border-gray">
-                <th scope="row" className="px-6 py-4 font-medium text-gray whitespace-nowrap dark:text-white">
-                    Apple MacBook Pro 17"
+            <tr className="odd:bg-white  even:bg-gray border-b hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-black1 whitespace-nowrap dark:text-white">
+                   Frequency
                 </th>
                 <td className="px-6 py-4">
-                    Silver
+                every 1, 2, 3 or 4 weeks1
                 </td>
                 <td className="px-6 py-4">
-                    Laptop
+                Just once / on-demand
                 </td>
                 <td className="px-6 py-4">
-                    $2999
+                Just once / on-demand
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
+                
             </tr>
-            <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+            <tr className="odd:bg-white hover:bg-yellow">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Microsoft Surface Pro
+                Minimum Duration
                 </th>
                 <td className="px-6 py-4">
-                    White
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    Laptop PC
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    $1999
+                2 hours
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
+                
             </tr>
-            <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+
+
+            <tr className="odd:bg-white hover:bg-yellow">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Magic Mouse 2
+                English-Speaking Cleaner
                 </th>
                 <td className="px-6 py-4">
-                    Black
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    Accessories
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    $99
+                2 hours
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
+                
             </tr>
-            <tr className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+
+            <tr className="odd:bg-white hover:bg-yellow">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Google Pixel Phone
+                Last-Minute Service
                 </th>
                 <td className="px-6 py-4">
-                    Gray
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    Phone
+                2 hours
                 </td>
                 <td className="px-6 py-4">
-                    $799
+                2 hours
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
+                
             </tr>
+
+
+
+            <tr className="odd:bg-white hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Subscribe & Save
+                </th>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                
+            </tr>
+            
+           
+        </tbody>
+    </table>
+
+
+{/* table 2 */}
+
+
+    <table className="w-full text-sm text-left rtl:text-right text-black1 dark:text-gray">
+        <thead className="text-xs text-white uppercase bg-black1 dark:bg-gray-700 dark:text-white">
             <tr>
-                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Apple Watch 5
+                <th scope="col" className="px-6 py-3">
+                Equipment
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr className="odd:bg-white  even:bg-gray border-b hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-black1 whitespace-nowrap dark:text-white">
+                   Frequency
                 </th>
                 <td className="px-6 py-4">
-                    Red
+                every 1, 2, 3 or 4 weeks1
                 </td>
                 <td className="px-6 py-4">
-                    Wearables
+                Just once / on-demand
                 </td>
                 <td className="px-6 py-4">
-                    $999
+                Just once / on-demand
                 </td>
-                <td className="px-6 py-4">
-                    <a href="#" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
-                </td>
+                
             </tr>
+            <tr className="odd:bg-white hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Minimum Duration
+                </th>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                
+            </tr>
+
+
+            <tr className="odd:bg-white hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                English-Speaking Cleaner
+                </th>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                
+            </tr>
+
+            <tr className="odd:bg-white hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Last-Minute Service
+                </th>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                
+            </tr>
+
+
+
+            <tr className="odd:bg-white hover:bg-yellow">
+                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                Subscribe & Save
+                </th>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                <td className="px-6 py-4">
+                2 hours
+                </td>
+                
+            </tr>
+            
+           
         </tbody>
     </table>
 </div>
