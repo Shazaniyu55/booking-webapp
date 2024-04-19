@@ -44,19 +44,7 @@ function Login(){
             Get login link 
           </button>
 
-            <p>
-            What can you see in the dashboard?
-            </p>
-
-            <ul>
-                <li>Upcoming cleanings</li>
-                <li>Completed cleanings</li>
-                <li>Subscriptions</li>
-                <li>Payments</li>
-                <li>Invoices</li>
-                <li>Billing data</li>
-                
-            </ul>
+        
 
 
         </form>
