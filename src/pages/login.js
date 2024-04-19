@@ -9,8 +9,8 @@ function Login(){
     return(
         <>
         <AdainNavBar/>
-        <div className="relative  container px-5 md:px-16 mx-auto  p-8 rounded-2xl p-10 mt-10">
-       <div className="bg-yellow p-10 m-10">
+        <div className="relative  container px-5 md:px-16 mx-auto  p-8 p-10 mt-10">
+       <div className="bg-yellow p-10 m-10 rounded-2xl">
 
         <div className="flex justify-center items-center">
             <img src={mop} alt="broom" width="60px" height="60px"/>
