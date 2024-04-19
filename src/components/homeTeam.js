@@ -36,11 +36,11 @@ const TeamCard = ({ imgSrc, name, title }) => {
   
         <div className="mx-auto md:grid grid-cols-2 lg:grid-cols-3 md:gap-y-8 sm:gap-10 mt-16">
           <TeamCard
-            imgSrc={team7}
+            imgSrc={team8}
             name="Fabian Lawrence"
-            title="CEO and Founder"
+            title="Customersupport"
           />
-          <TeamCard imgSrc={team10} name="Ruth Fabian" title="MD" />
+          <TeamCard imgSrc={team9} name="Ruth Fabian" title="Customersupport" />
           <TeamCard
             imgSrc={team12}
             name="Queeneeth ibeabuchi"
