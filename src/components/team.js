@@ -61,8 +61,8 @@ const TeamCard = ({ imgSrc, name, title }) => {
 
 <TeamCard
             imgSrc={team14}
-            name="Peter Paul"
-            title="Manager"
+            name="Simon Godsfavour Chiamaka"
+            title="Content analyst"
           />
          
          

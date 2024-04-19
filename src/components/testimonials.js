@@ -8,7 +8,7 @@ import  test2 from '../assets/testimonials/2.png'
 import  test3 from '../assets/testimonials/3.png'
 import  test4 from '../assets/testimonials/4.png'
 
-const Card = ({ star, title, imgSrc }) => {
+const Card = ({ star, title, imgSrc, text }) => {
   return (
     <div className="mx-2 flex flex-col gap-4 select-none cursor-pointer border border-yellow m-10 p-10 rounded-lg hover:shadow-xl transition-all">
       <div className="flex text-gold">
@@ -22,9 +22,7 @@ const Card = ({ star, title, imgSrc }) => {
       </div>
       <h2 className="text-lg font-semibold mb-2">{title}</h2>
       <p className="leading-loose">
-        Get working experience to work with this amazing team & in future want
-        to work together for bright future projects and also make deposit to
-        freelancer.
+        {text}
       </p>
       <div className="flex items-center gap-4 mt-5">
         <img src={imgSrc} width={50} height={50} alt="testimonials" />
@@ -58,12 +56,14 @@ const Testimonials = () => {
             star={<FaStarHalf />}
             title="Modern look & trending design"
             imgSrc={test1}
+            text="Great job as always"
           />
         </div>
         <div>
           <Card
             title="Layout and organized layers"
             imgSrc={test2}
+            text="Great work and excellent service"
           />
         </div>
         <div>
@@ -71,6 +71,7 @@ const Testimonials = () => {
             star={<FaStar />}
             title="Design Quality & performance"
             imgSrc={test3}
+            text="Very good hospitality service"
           />
         </div>
         <div>
@@ -78,6 +79,7 @@ const Testimonials = () => {
             star={<FaStarHalf />}
             title="Layout and organized layers"
             imgSrc={test4}
+            text="Excellent service"
           />
         </div>
       </Carousel>

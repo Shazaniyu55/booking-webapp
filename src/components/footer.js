@@ -205,7 +205,7 @@ const Footer = () => {
                   className="hover:opacity-75 hover:border-b hover:border-neutral-400 w-fit"
                 
                 >
-                <p>+493058849440</p>
+                <p>+491634442043</p>
             
                 </Link>
 

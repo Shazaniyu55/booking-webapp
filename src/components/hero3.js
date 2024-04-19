@@ -44,7 +44,7 @@ function Hero3(){
                 <Card
                   imgSrc={phone}
                   title="VIA PHONE"
-                  desc="Get in contact with us via phone by calling +49 30 588 494 40 where are always available by 8 am - 6 pm (Monday - Sunday)"
+                  desc="Get in contact with us via phone by calling +49 163 444 2043 where are always available by 8 am - 6 pm (Monday - Sunday)"
                 />
                 <Card
                   imgSrc={email}
