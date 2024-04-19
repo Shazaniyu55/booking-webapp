@@ -11,6 +11,7 @@ import Hero5 from "../components/hero5";
 import Faq from "../components/faq";
 import Foot2 from "../components/foot2";
 import Hero6 from "../components/hero6";
+import HomeTeam from "../components/homeTeam";
 
 function Home(){
 
@@ -30,6 +31,8 @@ function Home(){
             <Hero4/>
             <Services/>
             <Testimonials/>
+
+            <HomeTeam/>
             <Hero6/>
             <Faq/>
             <Hero5/> 
