@@ -2,6 +2,7 @@ import Foot2 from "../components/foot2";
 import Footer from "../components/footer";
 import AdainNavBar from "../components/navbar";
 import NiyuPrice from "../components/price";
+import Table from "../components/pricetable";
 
 
 function Price(){
@@ -18,6 +19,8 @@ function Price(){
 
                
                 <NiyuPrice/>
+
+                <Table/>
                 
                 
                 
