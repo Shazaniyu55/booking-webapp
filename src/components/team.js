@@ -1,9 +1,9 @@
 import React from "react";
 import team7 from '../assets/team/team7.jpeg'
 import team10 from '../assets/team/team10.jpeg'
-import team13 from '../assets/team/team13.jpeg'
+import team13 from '../assets/team/team51.jpeg'
 import team14 from '../assets/team/team14.jpeg'
-import team12 from '../assets/team/team12.jpeg'
+import paul from '../assets/team/paul.jpeg'
 
 
 
@@ -39,13 +39,13 @@ const TeamCard = ({ imgSrc, name, title }) => {
           />
           <TeamCard imgSrc={team10} name="Ruth Fabian" title="MD" />
           <TeamCard
-            imgSrc={team13}
+            imgSrc={paul}
             name="Peter Paul"
             title="Manager"
           />
 
           <TeamCard
-            imgSrc={team12}
+            imgSrc={team13}
             name="Queeneeth ibeabuchi"
             title="Secretary"
           />

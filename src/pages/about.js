@@ -12,12 +12,12 @@ function About(){
 
                 
                 
-                <Hero7 ptag="Meet Fabian family." text="The most convenient way to book a cleaning for your home & office."/>
+                <Hero7 ptag="Meet Lawrencegebäudereinigung." text="The most convenient way to book a cleaning for your home & office."/>
 
                 <section className="container mx-auto px-16 lg:px-32 bg-white">
                 <h1 className="text-3xl md:text-4xl text-black font-bold text-center lg:text-center mt-4">What do we do?</h1>
                 <p className="m-4 tracking-tighter leading-normal">
-                Fabian family.. Home & Office Cleaning is a curated online marketplace for home & office cleaning services. We work with background-checked, experienced cleaners in major European cities, including Berlin, Munich, Frankfurt and Stuttgart in Germany. Our journey started in September 2016 in Berlin, and since then we helped thousands of people in 40+ cities to find a legally-registered cleaning person for their home and office.
+                Lawrencegebäudereinigung. Home & Office Cleaning is a curated online marketplace for home & office cleaning services. We work with background-checked, experienced cleaners in major European cities, including Berlin, Munich, Frankfurt and Stuttgart in Germany. Our journey started in September 2016 in Berlin, and since then we helped thousands of people in 40+ cities to find a legally-registered cleaning person for their home and office.
                 </p>
                 </section>
 

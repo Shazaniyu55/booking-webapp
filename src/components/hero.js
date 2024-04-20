@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../assets/clean1.jpg"
+import bg from "../assets/cleanbg.jpeg"
 
 
 const Hero = () => {
@@ -21,10 +21,10 @@ const Hero = () => {
       style={styles}
     >
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
-        <h1 className="capitalize flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
-          <p className="text-white mt-20">
+        <h1 className="capitalize m-10 text-white flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
+         
           English-Speaking Cleaning Services in Germany
-             </p>
+             
           
         </h1>
         <p className="text-lg text-white leading-normal sm:leading-loose my-4 md:my-6">
