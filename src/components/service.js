@@ -1,5 +1,5 @@
 "use client";
-import clean from '../assets/clean4.jpg'
+import clean from '../assets/clean8.jpg'
 import mop2 from '../assets/svg/mop2.svg'
 import mop3 from '../assets/svg/mop3.svg'
 
