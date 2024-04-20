@@ -2,7 +2,7 @@ import React from "react";
 import email from "../assets/svg/email.svg"
 import phone from "../assets/svg/phone.svg"
 import chat from "../assets/svg/chat.svg"
-import clean from '../assets/clean6.jpg'
+import clean from '../assets/team/clean50.jpeg'
 
 
 const Card = ({ imgSrc, title, desc }) => {
