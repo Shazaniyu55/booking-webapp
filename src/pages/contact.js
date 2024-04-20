@@ -1,9 +1,10 @@
 import React from 'react';
 import AdainNavBar from '../components/navbar';
 import Hero7 from '../components/hero7';
-import team11 from '../assets/team/team11.jpeg'
 import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
+import team10 from '../assets/team/team10.jpeg'
+
 import Footer from '../components/footer';
 import Foot2 from '../components/foot2';
 import email from "../assets/svg/email.svg"
@@ -185,9 +186,9 @@ function Contact(){
         <section className="container mx-auto px-16 lg:px-32 bg-white">
         <h1 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">We usually reply within 3 hours</h1>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-2 lg:gap-16 text-center mx-auto m-10">
-          <Card imgSrc={team11} name="Fill out the booking form"/>
-          <Card imgSrc={team12} name="Pay for the first hour"/>
-          <Card imgSrc={team13} name="Have your place clean"/>
+          <Card imgSrc={team10} />
+          <Card imgSrc={team12} />
+          <Card imgSrc={team13} />
 
          
         </div>

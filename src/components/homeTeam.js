@@ -27,7 +27,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
     return (
       <section className="container mx-auto px-5 md:px-16 lg:px-24 mt-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">
-        OUR CUSTOMER SUPPORT TEAM
+        MEET THE FABIAN FAMILY
         </h2>
   
         <div className="mx-auto md:grid grid-cols-2 lg:grid-cols-3 md:gap-y-8 sm:gap-10 mt-16">
