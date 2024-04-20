@@ -1,12 +1,9 @@
 import React from "react";
 import team7 from '../assets/team/team7.jpeg'
-import team8 from '../assets/team/team8.jpeg'
-import team9 from '../assets/team/team9.jpeg'
 import team10 from '../assets/team/team10.jpeg'
-import team11 from '../assets/team/team11.jpeg'
-import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
 import team14 from '../assets/team/team14.jpeg'
+import team12 from '../assets/team/team12.jpeg'
 
 
 
@@ -42,22 +39,18 @@ const TeamCard = ({ imgSrc, name, title }) => {
           />
           <TeamCard imgSrc={team10} name="Ruth Fabian" title="MD" />
           <TeamCard
+            imgSrc={team13}
+            name="Peter Paul"
+            title="Manager"
+          />
+
+          <TeamCard
             imgSrc={team12}
             name="Queeneeth ibeabuchi"
             title="Secretary"
           />
 
-          <TeamCard
-            imgSrc={team11}
-            name="Lina Jutila"
-            title="Web Developer"
-          />
-
-          <TeamCard
-            imgSrc={team13}
-            name="Peter Paul"
-            title="Manager"
-          />
+          
 
 <TeamCard
             imgSrc={team14}

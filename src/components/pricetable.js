@@ -53,14 +53,14 @@ function Table(){
                 English-Speaking Cleaner
                 </th>
                 <td className="px-6 py-4">
-                                <img src={check} width="20px" height="20px"/>
+                                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">
                 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 
@@ -74,11 +74,11 @@ function Table(){
                 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 
@@ -91,7 +91,7 @@ function Table(){
                 Subscribe & Save
                 </th>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">
@@ -154,14 +154,14 @@ function Table(){
                 English-Speaking Cleaner
                 </th>
                 <td className="px-6 py-4">
-                                <img src={check} width="20px" height="20px"/>
+                                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">
                 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 
@@ -175,11 +175,11 @@ function Table(){
                 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 
@@ -192,7 +192,7 @@ function Table(){
                 Subscribe & Save
                 </th>
                 <td className="px-6 py-4">
-                <img src={check} width="20px" height="20px"/>
+                <img src={check} width="20px" height="20px" alt="check"/>
 
                 </td>
                 <td className="px-6 py-4">

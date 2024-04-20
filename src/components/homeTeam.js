@@ -1,7 +1,7 @@
 import React from "react";
 import team8 from '../assets/team/team8.jpeg'
 import team9 from '../assets/team/team9.jpeg'
-import team12 from '../assets/team/team12.jpeg'
+import team10 from '../assets/team/team10.jpeg'
 
 
 
@@ -27,20 +27,18 @@ const TeamCard = ({ imgSrc, name, title }) => {
     return (
       <section className="container mx-auto px-5 md:px-16 lg:px-24 mt-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">
-        OUR TEAM
+        OUR CUSTOMER SUPPORT TEAM
         </h2>
   
         <div className="mx-auto md:grid grid-cols-2 lg:grid-cols-3 md:gap-y-8 sm:gap-10 mt-16">
           <TeamCard
             imgSrc={team8}
-            name="Fabian Lawrence"
-            title="Customersupport"
+            
           />
-          <TeamCard imgSrc={team9} name="Ruth Fabian" title="Customersupport" />
+          <TeamCard imgSrc={team9} />
           <TeamCard
-            imgSrc={team12}
-            name="Queeneeth ibeabuchi"
-            title="Secretary"
+            imgSrc={team10}
+            
           />
 
        
