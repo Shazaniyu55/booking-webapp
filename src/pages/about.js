@@ -12,7 +12,7 @@ function About(){
 
                 
                 
-                <Hero7 ptag="Meet Lawrencegebäudereinigung." text="The most convenient way to book a cleaning for your home & office."/>
+                <Hero7 ptag="Meet The Team." text="The most convenient way to book a cleaning for your home & office."/>
 
                 <section className="container mx-auto px-16 lg:px-32 bg-white">
                 <h1 className="text-3xl md:text-4xl text-black font-bold text-center lg:text-center mt-4">What do we do?</h1>
