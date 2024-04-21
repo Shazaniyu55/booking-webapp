@@ -49,7 +49,7 @@ function ChatRobot() {
 
 					// This appears as the header
 					// text for the chat bot
-					headerTitle="GeekBot"
+					headerTitle="Customer support chat"
 					steps={steps}
 					{...config}
 
