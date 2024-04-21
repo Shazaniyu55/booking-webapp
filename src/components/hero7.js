@@ -21,13 +21,13 @@ const Hero7 = ({ptag, text}) => {
       style={styles}
     >
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
-        <h1 className="capitalize text-black1 mt-10 flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
+        <h1 className="capitalize text-gold mt-10 flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
          
           {ptag}
             
           
         </h1>
-        <p className="text-lg text-black1 font-black leading-normal sm:leading-loose my-4 md:my-6">
+        <p className="text-lg text-gold font-black leading-normal sm:leading-loose my-4 md:my-6">
         {text}
         </p>
 

@@ -1,68 +1,62 @@
-import React, { useState } from 'react';
-import { FaCloud, FaTimes } from 'react-icons/fa';
+//App.js
 
-const ChatRobot = () => {
-  const [showOptions, setShowOptions] = useState(false);
-  const [showCancle, setShowCancle] = useState(false)
+import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
+import img from '../assets/svg/user.svg'
+const steps = [
+	{
+		id: '0',
+		message: 'Hello! how may we assits you',
 
-  const handleChatboxClick = () => {
-    setShowOptions(true);
-    setShowCancle(true)
-  };
+		// This calls the next id
+		// i.e. id 1 in this case
+		trigger: '1',
+	},
+  {
+		id: '1',
 
-  const handleCloseOptions = () => {
-    setShowOptions(false);
-  };
+		// Here we want the user
+		// to enter input
+		user: true,
+		end: true,
+	},
+ 
+];
 
-  const handleEmailOption = () => {
-    console.log("Sending message via email...");
-    // Implement your logic for sending message via email here
-  };
-
-  const handleChatbotOption = () => {
-    console.log("Continuing with chatbot...");
-    // Implement your logic for continuing with chatbot here
-  };
-
-  return (
-    <div className="fixed bottom-0 right-0 m-4">
-      {showOptions ? (
-        <div className="bg-yellow p-2 shadow-md rounded h-400 overflow-y-auto">
-          <div className="cursor-pointer bg-black1" onClick={handleCloseOptions}>
-            <FaTimes size={20} />
-          </div>
-          
-
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleEmailOption}>
-            Send Message via Email
-          </div>
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleChatbotOption}>
-            Continue with Chatbot
-          </div>
-
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleChatbotOption}>
-            Continue with Chatbot
-          </div>
-
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleChatbotOption}>
-            Continue with Chatbot
-          </div>
-
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleChatbotOption}>
-            Continue with Chatbot
-          </div>
-
-          <div className="cursor-pointer text-blue-500 hover:text-blue-700" onClick={handleChatbotOption}>
-            Continue with Chatbot
-          </div>
-        </div>
-      ) : (
-        <div className="bg-blue-500 text-white p-3 rounded-full cursor-pointer" onClick={handleChatboxClick}>
-          {showCancle ? <FaCloud size={20} /> : <FaTimes size={20} />}
-        </div>
-      )}
-    </div>
-  );
+// Creating our own theme
+const theme = {
+	background: '#C9FF8F',
+	headerBgColor: '#f1b31c',
+	headerFontSize: '20px',
+	botBubbleColor: '#0F3789',
+	headerFontColor: 'white',
+	botFontColor: 'white',
+	userBubbleColor: '#FF5733',
+	userFontColor: 'white',
 };
+
+// Set some properties of the bot
+const config = {
+	botAvatar: img,
+	floating: true,
+};
+
+function ChatRobot() {
+	return (
+		<div className="App">
+			<ThemeProvider theme={theme}>
+				<ChatBot
+
+					// This appears as the header
+					// text for the chat bot
+					headerTitle="GeekBot"
+					steps={steps}
+					{...config}
+
+				/>
+			</ThemeProvider>
+		</div>
+	);
+}
 
 export default ChatRobot;
