@@ -21,13 +21,13 @@ const Hero = () => {
       style={styles}
     >
       <div className="md:w-2/3 lg:w-1/2 container px-5 md:px-16 mx-auto">
-        <h1 className="capitalize m-10 text-gold flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
+        <h1 className="capitalize m-10 text-white flex flex-col gap-2 md:gap-5 text-3xl sm:text-4xl md:text-[3.2rem] 2xl:text-6xl font-bold">
          
           English-Speaking Cleaning Services in Germany
              
           
         </h1>
-        <p className="text-lg text-gold font-bold leading-normal sm:leading-loose my-4 md:my-6">
+        <p className="text-lg text-white font-bold leading-normal sm:leading-loose my-4 md:my-6">
         Book a verified cleaning person for your home or office in Germany.
         </p>
 
