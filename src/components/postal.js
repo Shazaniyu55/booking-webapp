@@ -18,7 +18,8 @@ const Getpostal = () => {
       if (isValidPostalCode) {
         window.location.href = "/about";
       } else {
-        console.log(`${postalCode}Invalid postal code`);
+        
+        alert(`${postalCode} Invalid postal code`);
       }
     } catch (error) {
       console.error("Error checking postal code:", error);

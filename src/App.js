@@ -5,6 +5,7 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import Price from './pages/pricing';
 import Login from './pages/login';
+import InvalidPage from './pages/invalid';
 
 function App() {
   return (
