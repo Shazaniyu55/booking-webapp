@@ -5,6 +5,7 @@ import AdainNavBar from "../components/navbar";
 import Team from "../components/team";
 import {FaPhone, FaArrowRight, FaGlobe, FaVoicemail} from 'react-icons/fa'
 import bg from "../assets/clean22.jpeg"
+import ScrollTop from "../components/top";
 
 
 function About(){
@@ -56,7 +57,7 @@ function About(){
   </div>
 
 
-        
+                        <ScrollTop/>
                 <Team/>
                 <Footer/>
                 <Foot2/>

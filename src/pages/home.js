@@ -34,7 +34,7 @@ function Home(){
             <Hero4/>
             <Services/>
             <Testimonials/>
-
+            
             <HomeTeam/>
             <Hero6/>
             <Faq/>

@@ -10,6 +10,7 @@ import email from "../assets/svg/email.svg"
 import phone from "../assets/svg/phone.svg"
 import chat from "../assets/svg/chat.svg"
 import bg from "../assets/clean22.jpeg"
+import ScrollTop from '../components/top';
 
 
 // components for new card
@@ -349,7 +350,7 @@ function Contact(){
       />
 
     
-
+      <ScrollTop/>
     <Footer/>
     <Foot2/>
 
