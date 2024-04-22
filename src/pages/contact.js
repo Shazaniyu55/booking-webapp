@@ -1,6 +1,5 @@
 import React from 'react';
 import AdainNavBar from '../components/navbar';
-import Hero7 from '../components/hero7';
 import team12 from '../assets/team/team12.jpeg'
 import team13 from '../assets/team/team13.jpeg'
 import team10 from '../assets/team/team10.jpeg'
@@ -11,7 +10,6 @@ import email from "../assets/svg/email.svg"
 import phone from "../assets/svg/phone.svg"
 import chat from "../assets/svg/chat.svg"
 import bg from "../assets/clean22.jpeg"
-import {FaPhone, FaArrowRight, FaGlobe, FaVoicemail} from 'react-icons/fa'
 
 
 // components for new card
