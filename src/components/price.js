@@ -21,7 +21,7 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
 
 const NiyuPrice = () => {
   return (
-    <section className="bg-yellow relative container px-5 md:px-16 mx-auto">
+    <section className="bg-yellow  container">
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
        
         <div className="flex gap-5 md:gap-10 flex-col flex-1">

@@ -27,7 +27,7 @@ const Card = ({ imgSrc, title, text }) => {
     return (
       <section className="container mx-auto px-16 lg:px-32 bg-white">
         <h1 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">How does it work?</h1>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-2 lg:gap-16 text-center mx-auto m-10">
+        <div className="grid p-10 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-2 lg:gap-16 text-center mx-auto m-10">
           <Card imgSrc={num} title="Fill out the booking form" text="
           Select the type of cleaning, specify the date and time, and
           give us the address of your property.you can also select from a range of special requests.

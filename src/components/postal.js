@@ -1,5 +1,13 @@
 import React from "react";
+import { useState } from "react";
 
+
+
+
+const Getpostal = async ()=>{
+    const [postcode, setPostCode] = useState(0)
+    console.log(setPostCode(postcode))
+} 
 
 function Postal(){
 
@@ -15,6 +23,7 @@ function Postal(){
             <input
               type="email"
               placeholder="Enter your postal code"
+              onChange={Getpostal}
               className=" rounded-full bg-white px-3 py-4 text-center sm:text-left sm:p-6 border-none outline-none md:w-full font-[500] text-black"
             />
             <button
