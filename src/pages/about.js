@@ -1,6 +1,5 @@
 import Foot2 from "../components/foot2";
 import Footer from "../components/footer";
-import Hero7 from "../components/hero7";
 import AdainNavBar from "../components/navbar";
 import Team from "../components/team";
 import {FaPhone, FaArrowRight, FaGlobe} from 'react-icons/fa'
@@ -13,7 +12,7 @@ function About(){
                 <>
                 <AdainNavBar/>
 
-                <div name='support' className='w-full mt-10'>
+        <div name='support' className='w-full mt-10'>
       <div className='w-full h-[700px] absolute'>
         <img className='w-full h-full object-cover mix-blend-overlay' src={bg} alt="/" />
       </div>

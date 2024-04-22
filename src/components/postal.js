@@ -16,9 +16,9 @@ const Getpostal = () => {
       // Check if the postal code is valid for the specified country code
       const isValidPostalCode = postcodeValidator(postalCode, "DE"); // Assuming DE for Germany
       if (isValidPostalCode) {
-        window.location.href = "/checkout";
+        window.location.href = "/about";
       } else {
-        console.log("Invalid postal code");
+        console.log(`${postalCode}Invalid postal code`);
       }
     } catch (error) {
       console.error("Error checking postal code:", error);

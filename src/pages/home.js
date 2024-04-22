@@ -21,7 +21,7 @@ function Home(){
     
 
     return(
-        <div className="duration-200 overflow-hidden">
+        <div>
             <NavBar/>
             <Hero />
             <Postal/>
