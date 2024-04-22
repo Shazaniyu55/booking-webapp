@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../assets/cleanbg.jpeg"
+import bg from "../assets/clean22.jpeg"
 
 
 const Hero7 = ({ptag, text}) => {
