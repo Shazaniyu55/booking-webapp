@@ -14,6 +14,7 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
 
       </div>
 
+        
 
     </div>
   );
@@ -21,12 +22,13 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
 
 const NiyuPrice = () => {
   return (
-    <section className="bg-yellow  container">
-      <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
+    <section className="bg-yellow ">
+      <div className="flex gap-10 items-center">
        
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           
           <ServiceCard
+          
             title="REGULAR BASIC CLEANING"
             desc="From
             €
