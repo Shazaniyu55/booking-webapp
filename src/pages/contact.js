@@ -10,6 +10,8 @@ import Foot2 from '../components/foot2';
 import email from "../assets/svg/email.svg"
 import phone from "../assets/svg/phone.svg"
 import chat from "../assets/svg/chat.svg"
+import bg from "../assets/clean22.jpeg"
+import {FaPhone, FaArrowRight, FaGlobe, FaVoicemail} from 'react-icons/fa'
 
 
 // components for new card
@@ -180,8 +182,23 @@ function Contact(){
     return(
         <>
         <AdainNavBar/>
-        <Hero7 ptag="Contact Us" text="Our team is available from 8 am to 6 pm, Monday-Sunday."/>
 
+        <div name='support' className='w-full mt-10'>
+      <div className='w-full h-[400px] bg-gray-900/90 absolute'>
+        <img className='w-full h-full object-cover mix-blend-overlay' src={bg} alt="/" />
+      </div>
+      
+      <div className='max-w-[1240px] mx-auto text-white relative'>
+          <div className='px-4 py-12'>
+              <h3 className='text-5xl font-bold py-6 text-center'>Contact Us</h3>
+              <p className='py-4 text-3xl text-slate-300 text-center'>
+              Our team is available from 8 am to 6 pm, Monday-Sunday.
+              </p>
+          </div>
+
+          
+      </div>
+  </div>
 
         <section className="container mx-auto px-16 lg:px-32 bg-white">
         <h1 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">We usually reply within 3 hours</h1>
