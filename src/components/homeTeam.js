@@ -26,7 +26,7 @@ const TeamCard = ({ imgSrc, name, title }) => {
   const HomeTeam = () => {
     return (
       <section className="container mx-auto px-5 md:px-16 lg:px-24 mt-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-center mt-4">
+        <h2 className="text-2xl md:text-4xl font-bold text-center lg:text-center mt-4">
          Lawrencegebäudereinigung Team
         </h2>
   

@@ -183,7 +183,7 @@ function Contact(){
         <AdainNavBar/>
 
         <div name='support' className='w-full mt-10'>
-      <div className='w-full h-[400px] bg-gray-900/90 absolute'>
+      <div className='w-full h-[400px] absolute'>
         <img className='w-full h-full object-cover mix-blend-overlay' src={bg} alt="/" />
       </div>
       

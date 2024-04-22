@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import Hero7 from "../components/hero7";
 import AdainNavBar from "../components/navbar";
 import Team from "../components/team";
-import {FaPhone, FaArrowRight, FaGlobe, FaVoicemail} from 'react-icons/fa'
+import {FaPhone, FaArrowRight, FaGlobe} from 'react-icons/fa'
 import bg from "../assets/clean22.jpeg"
 import ScrollTop from "../components/top";
 
@@ -14,7 +14,7 @@ function About(){
                 <AdainNavBar/>
 
                 <div name='support' className='w-full mt-10'>
-      <div className='w-full h-[700px] bg-gray-900/90 absolute'>
+      <div className='w-full h-[700px] absolute'>
         <img className='w-full h-full object-cover mix-blend-overlay' src={bg} alt="/" />
       </div>
       

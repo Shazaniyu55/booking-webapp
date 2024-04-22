@@ -15,7 +15,7 @@ const Footer = () => {
             <Link to={"/"} className="text-3xl">
               
 
-              <span className="text-white">Lawrencegebäudereinigung</span>
+              <p className="text-2xl text-white">Lawrencegebäudereinigung</p>
             </Link>
             <p className="max-w-xs mt-4 text-sm text-white">
               Quality Products At Its Best
